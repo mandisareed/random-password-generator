@@ -1,7 +1,7 @@
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
-function writePassword() {
+function writePassword(userAnswers) {
   //ref obj in here
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
@@ -9,6 +9,7 @@ function writePassword() {
   passwordText.value = password;
 
 }
+//writePassword ({userAnswers: Math.random})
 
 //    WHEN user clicks on Generate PW button, 
  
