@@ -35,13 +35,19 @@ function showAlert () {
    }
 }
 
+//if (specialChars != true && upperChars != true && lowerChars != true && numChars != true){
+  //alert("You must select at least one character type!")
+//}
+
+
 //Store the 5 answers (length and 4 character types) in an object
 
 var userAnswers = {
   userPwLength: "",
-  specialChars: "",
-  upperChars: "",
-  numChars: "",
+  specialChars: "!@#$%^&*()",
+  upperChars: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  lowerChars: "abcdefghijklmnopqrstuvwxyz",
+  numChars: "0123456789",
 };
 
  
@@ -61,7 +67,3 @@ generateBtn.addEventListener("click", writePassword);
 //CONFIRM: Do you want your pw to include special chars?
    // IF user clicks "ok", include special chars in pw
    // ELSE do not include special chars in pw
-   
-
-
-  
