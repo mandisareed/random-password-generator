@@ -75,11 +75,11 @@ function showAlert () {
 //}
 
 //function generateRandomChar (charSet) {
-  //var randomChar = charSet[Math.floor(Math.random) * charSet.length];
-  //return password = password + randomChar;
+//var randomChar = charSet[Math.floor(Math.random) * charSet.length];
+//return password = password + randomChar
 
 
-var pwFinal = " ";
-console.log(pwFinal);
+//var pwFinal = " ";
+//console.log(pwFinal);
 
 
